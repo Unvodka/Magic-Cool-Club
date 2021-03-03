@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+}
+p {
+  margin: 10px 0;
+  max-width: 600px;
+  text-align: center;
+}
+.draws {
+  margin: 40px auto 20px auto;
+  max-width: 100%;
+}
+h1 {
+}
+h2 {
+  text-decoration: underline;
+  margin-top: 50px;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+}
+.header {
+  padding-left: 40px;
+  height: 500px;
+  width: 100%;
+  background-image: url("../img/background-header.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -190px;
+  color: aliceblue;
+}
+header p {
+  max-width: 200px;
+  margin-left: 40px;
+}
+.logo {
+  padding-top: 40px;
+  margin-bottom: 15px;
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.logo img {
+  border-radius: 10%;
+}
+.nav {
+  position: relative;
+  float: right;
+  bottom: 100px;
+  margin-right: 6%;
+  font-weight: bold;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.text {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.text p {
+  margin: 10px auto;
+  justify-self: center;
+}
+
+.image {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.intro img {
+  max-width: 600px;
+  max-height: 350px;
+}
+
+.testimony {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.testimony p {
+  max-width: 450px;
+}
+
+.path {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.path img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.path p {
+  max-width: 450px;
+}
+
+.path .item {
+  padding: 30px;
+}
+
+.path .item1,
+.item3 {
+  margin: auto;
+}
+
+figcaption {
+  color: aliceblue;
+  margin: 20px;
+  max-height: 200px;
+}
+
+.drawings {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.draw {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.draw1 {
+  margin-top: 30px;
+  height: 480px;
+  width: 45%;
+  background-image: url(../img/drawing.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.draw2 {
+  display: flex;
+  margin-top: 30px;
+  height: 480px;
+  width: 90%;
+  background-image: url(../img/drawing2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.draw2 figcaption {
+  position: relative;
+  top: 80px;
+  left: 80px;
+}
+.draw3 {
+  margin-top: 30px;
+  height: 480px;
+  width: 45%;
+  background-image: url(../img/drawing3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.drawings img {
+  max-width: 400px;
+  max-height: 400px;
+}
+.drawings p {
+  height: 50px;
+  width: 100%;
+}
+
+footer {
+  color: aliceblue;
+  background-color: black;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+}
