@@ -7,22 +7,33 @@ body {
   background-color: burlywood;
 }
 p {
+  font-size: 1.25rem;
   margin: 10px 0;
   max-width: 600px;
   text-align: center;
 }
+.nav a {
+  font-size: 2em;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-decoration: none;
+}
+
 .draws {
   margin: 40px auto 20px auto;
   max-width: 100%;
 }
 h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
 }
 h2 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
   text-decoration: underline;
   margin-top: 50px;
   text-align: center;
 }
 h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: bold;
 }
 .header {
@@ -35,18 +46,25 @@ h3 {
   background-position-y: -190px;
   color: aliceblue;
 }
-header p {
-  max-width: 200px;
-  margin-left: 40px;
-}
+
 .logo {
-  padding-top: 40px;
+  background-color: black;
+  border-radius: 50%;
+  padding-top: 15px;
   margin-bottom: 15px;
   max-width: 250px;
+  height: 40%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
+  position: relative;
+  top: 5%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.logo div {
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
 }
 .logo img {
   border-radius: 10%;
@@ -54,12 +72,15 @@ header p {
 .nav {
   position: relative;
   float: right;
-  bottom: 100px;
-  margin-right: 6%;
+  bottom: 110px;
+  margin-right: 4%;
   font-weight: bold;
+  list-style-type: none;
+  text-decoration: underline;
 }
 
 .intro {
+  padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -79,9 +100,13 @@ header p {
 
 .image {
   margin-top: 40px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+.image img {
+  border-radius: 5%;
 }
 .intro img {
   max-width: 600px;
@@ -95,6 +120,9 @@ header p {
 }
 
 .testimony p {
+  padding: 20px;
+  border: 1px solid black;
+  font-style: italic;
   max-width: 450px;
 }
 
@@ -105,7 +133,7 @@ header p {
 }
 
 .path img {
-  max-width: 400px;
+  max-width: 450px;
   max-height: 400px;
 }
 
@@ -121,11 +149,17 @@ header p {
 .item3 {
   margin: auto;
 }
-
 figcaption {
-  color: aliceblue;
-  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.white {
+  text-decoration: underline;
+  color: antiquewhite;
   max-height: 200px;
+  text-align: left;
 }
 
 .drawings {
@@ -136,14 +170,19 @@ figcaption {
 }
 
 .draw {
+  margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
 }
-
+.draws {
+  margin-top: 70px;
+}
 .draw1 {
+  border: 1px solid black;
   margin-top: 30px;
+  padding: 10px;
   height: 480px;
   width: 45%;
   background-image: url(../img/drawing.jpg);
@@ -151,23 +190,22 @@ figcaption {
   background-position: center;
 }
 .draw2 {
-  display: flex;
   margin-top: 30px;
-  height: 480px;
-  width: 90%;
+  padding: 10px;
+  border: 1px solid black;
+  height: 400px;
+  width: 15%;
   background-image: url(../img/drawing2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
-.draw2 figcaption {
-  position: relative;
-  top: 80px;
-  left: 80px;
-}
+
 .draw3 {
+  border: 1px solid black;
   margin-top: 30px;
   height: 480px;
+  padding: 10px;
   width: 45%;
   background-image: url(../img/drawing3.jpg);
   background-size: cover;
